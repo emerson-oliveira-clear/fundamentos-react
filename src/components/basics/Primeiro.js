@@ -1,7 +1,7 @@
-
+import React from 'react'
 
 export default function Primeiro(){
-    return 'Primeiro Componente '
+    return <h2>Primeiro Componente </h2>
 
 
 }
