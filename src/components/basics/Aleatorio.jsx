@@ -1,30 +1,24 @@
 import React from "react";
 
-export default props => {
+export default (props) => {
 
-    const min = props.min;
-    const max = props.max;
 
-    const numAleatorio = Math.floor(Math.random() * (max - min)) + min;
+    const {min,max} = props;
+
+
+    const numAleatorio = parseInt(Math.random() * (max - min)) + min;
     
     return (
         <div>
 
-            <h2>
-                numero Aleatorio
+            <h2>numero Aleatorio</h2>
 
-            </h2>
+            <p><strong>Valor minimo: {min}</strong></p>
 
-            <p>
-                <strong>Valor maximo{max}</strong>
-            </p>
+            <p><strong>Valor maximo: {max}</strong></p>
 
             <p>
-            <strong>Valor minimo{min}</strong>
-            </p>
-
-            <p>
-            <strong>Valor escolhido{numAleatorio}</strong>
+            <strong>Valor escolhido: {numAleatorio}</strong>
             </p>
 
         </div >
