@@ -31,9 +31,12 @@ export default () => (
                 <UsuarioInfo usuario={{ nome: 'Fernando' }}
                 />
 
+                {/*
                 <UsuarioInfo usuario={{ email: 'fefe@fefe.com' }}
 
                 />
+                */}
+
             </Card>
 
 
