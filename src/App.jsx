@@ -13,15 +13,24 @@ import Primeiro from './components/basics/Primeiro'
 import TabelaProdutos from "./components/repetição/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
+import DiretaPai from'./components/comunicação/DiretaPai';
+
+
 
 export default () => (
 
     <div className="App">
         <h1>Fundamento React 2</h1>
 
-
-
         <div className="Cards">
+
+            <Card titulo="#09 -Comunicação Direta" color="#69411D" >
+
+            <DiretaPai></DiretaPai>
+
+            
+            </Card>
+
 
             <Card titulo="#08 - Renderizção Condicional" color="#69671D" >
 
