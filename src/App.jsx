@@ -12,6 +12,7 @@ import ComParametro from './components/basics/ComParametro'
 import Primeiro from './components/basics/Primeiro'
 import TabelaProdutos from "./components/repetição/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
+import UsuarioInfo from "./components/condicional/UsuarioInfo";
 
 export default () => (
 
@@ -22,12 +23,26 @@ export default () => (
 
         <div className="Cards">
 
+            <Card titulo="#08 - Renderizção Condicional" color="#69671D" >
+
+                <ParOuImpar numero={20}>
+                </ParOuImpar>
+
+                <UsuarioInfo usuario={{ nome: 'Fernando' }}
+                />
+
+                <UsuarioInfo usuario={{ email: 'fefe@fefe.com' }}
+
+                />
+            </Card>
+
+
             <Card titulo="#08 - Renderizção Condicional" color="#45691D" >
 
                 <ParOuImpar numero={20}>
 
 
-                    
+
                 </ParOuImpar>
 
             </Card>
