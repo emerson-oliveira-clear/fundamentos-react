@@ -23,11 +23,10 @@ export default () => (
 
                     <FamiliaMembro nome='Pedro'/>
 
-                {/*}
                     <FamiliaMembro nome='Ana'/>
 
-                    <FamiliaMembro nome='Gustavo'/> 
-                */}
+                    <FamiliaMembro nome='Gustavo'/>
+                
 
                 </Familia>
 
