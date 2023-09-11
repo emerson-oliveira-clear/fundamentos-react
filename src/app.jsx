@@ -1,5 +1,6 @@
 import React from "react";
 
+import Card from "./components/layout/Card";
 import Aleatorio from "./components/basics/Aleatorio";
 import Fragmento from './components/basics/Fragmento'
 import ComParametro from './components/basics/ComParametro'
@@ -9,6 +10,9 @@ export default () => (
 
     <div id="app">
         <h1>Fundamento React 2(arrow)</h1>
+
+        <Card titulo="Exemplo de card"></Card>
+
 
         <Aleatorio min={1} max ={60}/>
 
