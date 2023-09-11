@@ -1,21 +1,16 @@
 import React from "react";
 
-
-import Primeiro from './components/basics/Primeiro'
-import ComParametro from './components/basics/ComParametro'
-import Fragmento from './components/basics/Fragmento'
-
 import Aleatorio from "./components/basics/Aleatorio";
+import Fragmento from './components/basics/Fragmento'
+import ComParametro from './components/basics/ComParametro'
+import Primeiro from './components/basics/Primeiro'
 
-
-export default (_) => {
+export default () => (
 
     <div id="app">
         <h1>Fundamento React 2(arrow)</h1>
 
-        <Aleatorio
-            
-        />
+        <Aleatorio min={1} max ={60}/>
 
         <Fragmento
         />
@@ -31,4 +26,4 @@ export default (_) => {
 
     </div>
 
-}
+)
