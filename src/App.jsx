@@ -19,8 +19,11 @@ export default () => (
         <div className="Cards">
 
 
-            <Card titulo="#06 - LIsta de alunos" color="#1D6967" >
-                <Fragmento />
+            <Card titulo="#06 - repetição" color="#1D6967" >
+
+                <ListaAlunos></ListaAlunos>
+
+
             </Card>
 
 
