@@ -11,22 +11,28 @@ export default () => (
     <div id="app">
         <h1>Fundamento React 2(arrow)</h1>
 
-        <Card titulo="Exemplo de card"></Card>
+        <Card titulo="#04 - Desafio aleatório">
 
+            <Aleatorio min={1} max={60} />
 
-        <Aleatorio min={1} max ={60}/>
+        </Card>
 
-        <Fragmento
-        />
+        <Card titulo="#03 - Fragmento">
+            <Fragmento />
+        </Card>
 
-        <ComParametro
-            titulo="Situação do Aluno"
-            aluno="Pedro silva"
-            nota={9.3}
-        />
+        <Card titulo="#02 - ComParametro">
+            <ComParametro
+                titulo="Situação do Aluno"
+                aluno="Pedro silva"
+                nota={9.3}
+            />
+        </Card>
 
-        <Primeiro
-        />
+        <Card titulo=" #01 - Primeiro Componente">
+            <Primeiro/>
+        </Card>
+
 
     </div>
 
