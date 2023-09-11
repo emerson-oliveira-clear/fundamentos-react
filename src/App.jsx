@@ -15,17 +15,17 @@ export default () => (
 
         <div className="Cards">
 
-            <Card titulo="#04 - Desafio aleatório">
+            <Card titulo="#04 - Desafio aleatório" color="#69411D">
 
                 <Aleatorio min={1} max={60} />
 
             </Card>
 
-            <Card titulo="#03 - Fragmento">
+            <Card titulo="#03 - Fragmento" color="#69671D" >
                 <Fragmento />
             </Card>
 
-            <Card titulo="#02 - ComParametro">
+            <Card titulo="#02 - ComParametro" color="#45691D">
                 <ComParametro
                     titulo="Situação do Aluno"
                     aluno="Pedro silva"
@@ -33,7 +33,7 @@ export default () => (
                 />
             </Card>
 
-            <Card titulo=" #01 - Primeiro Componente">
+            <Card titulo=" #01 - Primeiro Componente" color="#1F691D">
                 <Primeiro />
             </Card>
 
