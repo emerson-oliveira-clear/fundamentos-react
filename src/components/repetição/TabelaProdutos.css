@@ -1,0 +1,19 @@
+.TabelaProdutos th {
+    background-color: rgb(6, 85, 85);
+    color: white;
+}
+
+.TabelaProdutos table {
+    width: 100%;
+
+}
+
+.TabelaProdutos .par {
+    background-color: white;
+
+}
+
+.TabelaProdutos .impar {
+    background-color: rgba(17, 80, 80, 0.582);
+
+}
