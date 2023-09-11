@@ -11,6 +11,7 @@ import Fragmento from './components/basics/Fragmento'
 import ComParametro from './components/basics/ComParametro'
 import Primeiro from './components/basics/Primeiro'
 import TabelaProdutos from "./components/repetição/TabelaProdutos";
+import ParOuImpar from "./components/condicional/ParOuImpar";
 
 export default () => (
 
@@ -21,9 +22,20 @@ export default () => (
 
         <div className="Cards">
 
+            <Card titulo="#08 - Renderizção Condicional" color="#45691D" >
+
+                <ParOuImpar numero={20}>
+
+
+                    
+                </ParOuImpar>
+
+            </Card>
+
+
             <Card titulo="#07 - desafio repetição" color="#1F691D" >
 
-                <TabelaProdutos/>
+                <TabelaProdutos />
             </Card>
 
 
