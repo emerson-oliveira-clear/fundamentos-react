@@ -33,7 +33,7 @@ export default () => (
                 />
             </Card>
 
-            <Card titulo=" #01 - Primeiro Componente" color="#1F691D">
+            <Card titulo=" #01 - Primeiro Componente" color="#1F691D ">
                 <Primeiro />
             </Card>
 
