@@ -13,7 +13,8 @@ import Primeiro from './components/basics/Primeiro'
 import TabelaProdutos from "./components/repetição/TabelaProdutos";
 import ParOuImpar from "./components/condicional/ParOuImpar";
 import UsuarioInfo from "./components/condicional/UsuarioInfo";
-import DiretaPai from'./components/comunicação/DiretaPai';
+import DiretaPai from './components/comunicação/DiretaPai';
+import IndiretaPai from "./components/comunicação/IndiretaPai";
 
 
 
@@ -24,11 +25,20 @@ export default () => (
 
         <div className="Cards">
 
+            <Card titulo="#10 -Comunicação Indireta" color="#1D6941" >
+
+            <IndiretaPai> </IndiretaPai>
+
+
+            </Card>
+
+
+
             <Card titulo="#09 -Comunicação Direta" color="#69411D" >
 
-            <DiretaPai></DiretaPai>
+                <DiretaPai></DiretaPai>
 
-            
+
             </Card>
 
 
